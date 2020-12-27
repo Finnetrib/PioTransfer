@@ -60,16 +60,6 @@ int main()
 
 	xil_printf("Hello World\n\r");
 
-
-	Xil_Out32(0x43C00004, 0x01);
-	Xil_Out32(0x43C00004, 0x02);
-	Xil_Out32(0x43C00004, 0x03);
-	Xil_Out32(0x43C00004, 0x04);
-	Xil_Out32(0x43C00004, 0x05);
-	Xil_Out32(0x43C00004, 0x06);
-	Xil_Out32(0x43C00004, 0x07);
-	Xil_Out32(0x43C00004, 0x08);
-
 	while (1)
 	{
 
